@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+  int main(void)
+  {
+    int c[256];
+    int i;
+    for(i=0;i<256;);
+    printf("First Array:\n");
+    
+  }
