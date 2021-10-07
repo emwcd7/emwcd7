@@ -1,1 +1,26 @@
+#include<stdio.h>
 
+int main(void)
+{
+int c[256];
+int i;
+
+for(i = 0; i < 256; i++);
+
+printf("First Array:\n");
+
+for(i = 0; i < 10; i++){
+c[i] = (i+1)* 2;
+printf("        Element %d = %d\n", i , c[i]);
+}
+
+int n[33] = {1,4,7,10,13,16,19,22,25,28,31,34,37,40,43,46,49,52,55,58,61,64,67,70,73,76,79,82,85,88,91,94,97} ;
+int x;
+
+printf("\nSecond Array:\n");
+
+for(x = 0; x < 33; x++){
+printf("        Element %d = %d\n", x , n[x]);
+}
+return 0;
+}
